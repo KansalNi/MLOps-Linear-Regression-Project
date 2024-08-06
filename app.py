@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "Welcome to the Housing Price Prediction API!"
+    return "Hi, Welcome to the Housing Price Prediction API!"
 
 @app.route('/predict', methods=['POST'])
 def predict():
